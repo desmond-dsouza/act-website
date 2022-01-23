@@ -1,5 +1,6 @@
 # The base URL of the site; the only required configuration variable.
 base_url = "https://actmyindia.org"
+#base_url = "https://actmyindia.netlify.app"
 
 # The site title and description; used in feeds by default.
 title = "ACT MY India"
@@ -48,10 +49,11 @@ anchors = "on"
 
 navbar_items = [
     { code = "en", nav_items = [
-        { url = "$BASE_URL/", name = "Home" },
-        { url = "$BASE_URL/about", name = "About" },
-        { url = "$BASE_URL/faq", name = "FAQ" },
-        { url = "$BASE_URL/contact", name = "Contact" },
+        { url = "/", name = "Home" },
+        { url = "/about", name = "About" },
+        { url = "/faq", name = "FAQ" },
+        { url = "/contact", name = "Contact" },        
+#        { url = "$BASE_URL/contact", name = "Contact" },
     ] },
 ]
 
